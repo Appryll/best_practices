@@ -23,7 +23,13 @@ I) Create a virtual environment
         source env/bin/activate
         ````
 
-II) Install dependencies from requirements.txt:
+II.I) Update pip (optional):
+
+```bash
+python.exe -m pip install --upgrade pip
+```
+
+II.II) Install dependencies from requirements.txt:
 
 ```bash
 pip install -r requirements.txt

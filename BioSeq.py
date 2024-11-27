@@ -1,6 +1,6 @@
 from function import transcribe_dna_to_rna
 import os
-                                    ####  BIOSEG  ####
+
 def transcribe_dna_to_rna(dna_sequence):
     return dna_sequence.upper().replace('T', 'U')
 
@@ -9,8 +9,6 @@ dna_sequence = "AGCTATAG"
 rna_sequence = transcribe_dna_to_rna(dna_sequence)
 print(f"RNA Sequence: {rna_sequence}")
 def gc_content(sequence):
-    
-    
     """Calculate the GC content of a DNA sequence."""
     sequence=sequence.upper()
     g_count=sequence.count('G')
